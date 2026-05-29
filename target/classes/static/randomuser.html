@@ -14,14 +14,17 @@
         <a href="/toggle.html">Toggle</a>
         <a href="/randomuser.html">RandomUser</a>
     </div>
-    <h1>Hello world of Card</h1>
+    <h1>Hello RandomUser</h1>
     <div class="card">
-        <img src="images/john_doe.png" alt="John_Doe">
+        <img id="userImage" src="images/john_doe.png" alt="John_Doe">
         <div class="card_content">
-            <h4>John Doe</h4>
-            <h5>Male</h5>
+            <h4 id="userName">John Doe</h4>
+            <h5 id="userGender">Male</h5>
+            <button onclick="getAndDisplayNextRandomUser()">Get Random User</button>
         </div>
     </div>
     <script src="js/site.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/randomuser.js"></script>
 </body>
 </html>

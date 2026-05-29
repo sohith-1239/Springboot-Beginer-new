@@ -3,10 +3,16 @@
     width: 25%;
     margin-left: 40px;
     margin-top: 30px;
+    align-items: center;
 }
 .card img{
     width: 100%;
 }
-.card-content{
+.card_content{
     padding: 40px;
+}
+.card button{
+    
+    background-color: rgb(44, 130, 149);
+    
 }
